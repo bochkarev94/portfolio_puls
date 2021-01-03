@@ -1,0 +1,287 @@
+@media  ( max-width: 1200px )
+    .promo
+        .wrapper
+            &_header
+                font-size: 37px
+            &_subheader
+                font-size: 21px
+    .reviews
+        &_text
+            width: 620px
+
+@media( max-width: 992px )
+    .promo
+        background-position-x: 27%
+        .header
+            padding: 0 30px
+            &_officcial
+                display: none
+        .wrapper
+            align-items: center
+            &_header
+                font-size: 35px
+            &_officcial
+                display: block
+                color: #ffffff
+                font-size: 12px
+                font-weight: 500
+    .advant
+        .wrapper
+            &_subtitle
+                margin-right: 0
+            &_text
+                font-size: 13px
+    .consultation
+        padding-left: 50px
+        &_descr
+            font-size: 15px
+        .title
+            &_left
+                font-size: 20px
+    .slider
+        &_wrapper
+            flex-direction: column
+            position: relative
+        &_prev
+            position: absolute
+            bottom: -40px
+            left: 42%
+        &_next
+            position: absolute
+            bottom: -40px
+            right: 42%
+    .catalog
+        &_content
+            justify-content: center
+        &-wrapper
+            margin-right: 0
+            margin-left: 20px
+        &_tabs
+            margin-right: 20px
+    .reviews
+        &_wrapper
+            margin-left: 20px
+            margin-right: 20px
+        &_text
+            font-size: 10px
+        &_img
+            img
+                height: 120px
+    .footer
+        &_info
+            width: 400px
+            height: 160px
+            padding-top: 30px
+            left: 54%
+        &_addr
+            font-size: 15px
+            line-height: 0
+        &_phone
+            font-size: 15px
+            line-height: 0
+        &_social-item
+            width: 40px
+            height: 40px
+            img
+                width: 40%
+
+@media( max-width: 768px )
+    .promo
+        .wrapper
+            &_header
+                font-size: 28px
+            &_subheader
+                font-size: 15px
+    .advant
+        .wrapper
+            display: block
+            width: 100%
+            &_subtitle
+                display: inline-block
+                vertical-align: top
+                margin-bottom: 20px
+                img
+                    margin-bottom: 20px
+    .consultation
+        padding-top: 169px
+
+    .slider
+        &_inner
+            img
+                width: 100%
+    .footer
+        &_info
+            width: 265px
+            height: 130px
+            padding: 15px 0 0 0
+            right: 0
+            transform: none
+        &_addr
+            font-size: 12px
+        &_phone
+            font-size: 13px
+            margin-bottom: 15px
+        &_social-item
+            width: 30px
+            height: 30px
+    .overlay
+        .modal
+            width: 288px
+            &_mini
+                min-height: 100px
+            .feed-form
+                width: 200px
+                input
+                    height: 38px
+                    font-size: 12px
+                .button_submit
+                    font-size: 11px
+                    height: 45px
+            &_subtitle
+                font-size: 13px
+            &_descr
+                font-size: 13px
+
+@media( max-width: 575px )
+    .title
+        font-size: 20px
+
+    .promo
+        .header
+            flex-direction: column
+            text-align: center
+            &_contacts
+                font-size: 15px
+                align-items: center
+                margin-top: 10px
+        .wrapper
+            justify-content: center
+            &_header
+                font-size: 20px
+            &_subheader
+                font-size: 12px
+            &_icons
+                width: auto
+                font-size: 11px
+                margin: 20px 0 130px 0
+            &_icon
+                width: 100px
+    .consultation
+        padding: 150px 0 0 0
+
+        &_descr
+            font-size: 10px
+            margin-top: 40px
+            padding-left: 37px
+        .title
+            &_left
+                font-size: 17px
+                padding-left: 37px
+    .feed-form
+        align-items: center
+        .button
+            &_submit
+                width: 70%
+                font-size: 13px
+    .slider
+        &_wrapper
+            height: auto
+            display: block
+        &_prev
+            bottom: -30%
+            right: 0
+            left: 50px
+        &_next
+            bottom: -30%
+            right: 50px
+
+    .catalog
+        margin-top: 40px
+        padding-bottom: 10px
+        &_content
+            justify-content: center
+        &-wrapper
+            margin-right: 0
+            margin-left: 20px
+            width: 220px
+            &_price
+                font-size: 12px
+
+            &_descr
+                font-size: 12px
+            &_line
+                width: 160px
+            &_footer
+                button
+                    width: 120px
+                    height: 33px
+                    font-size: 12px
+                    margin-left: 5px
+            img
+                height: 130px
+
+        &_list
+            font-size: 11px
+            min-height: 320px
+        &_tabs
+            display: flex
+            justify-content: space-around
+            margin-top: 0
+        &_tab
+            width: 15px
+            height: 30px
+            position: relative
+            line-height: 24px
+            div
+                display: none
+            &:hover:after
+                content: attr(data-mobile)
+                color: #c70101
+                font-size: 10px
+                position: absolute
+                transform: skewX(25deg)
+                top: 40px
+                width: 60px
+                right: -30px
+
+            &_price
+                font-size: 15px
+    .reviews
+        &_img
+            display: none
+        .title
+            margin-bottom: 10px
+    .footer
+        top: 50px
+        height: 260px
+
+        &_info
+            width: 100%
+            height: 110px
+            right: 50%
+            left: 0
+            top: -110px
+        iframe
+            height: 270px
+    .overlay
+        .modal
+            width: 218px
+            min-height: 340px
+            padding-top: 10px
+            padding-bottom: 0
+            &_mini
+                min-height: 100px
+            &_close
+                font-size: 40px
+                right: -35px
+            .feed-form
+                width: 135px
+                input
+                    height: 38px
+                    font-size: 12px
+                .button_submit
+                    width: 100%
+            &_subtitle
+                font-size: 13px
+            &_descr
+                font-size: 13px
